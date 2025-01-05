@@ -75,6 +75,8 @@ By integrating with Amazon's e-book ecosystem, the app can provide real-time too
 
 This is a **proprietary project**, and all rights to the app, its code, and its concept are exclusively reserved by the creator. The repository is for demonstration and development purposes only. Unauthorized copying, distribution, or modification of the app's content is strictly prohibited.
 
+*The concept of this Application was conceived on November 24th, 2024*
+
 Name: Michael Lloyd Luanglath
 
 Email: Mike.EXPR@gmail.com
