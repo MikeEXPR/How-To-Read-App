@@ -12,6 +12,7 @@ An innovative app designed to enhance reading comprehension and critical thinkin
 This project is proprietary and all rights are reserved by the creator. Any unauthorized reproduction, modification, or distribution of this content is strictly prohibited. For inquiries, please contact the repository owner.
 
 Name: Michael Lloyd Luanglath
+
 Email: Mike.EXPR@Gmail.com
 
 ## License
