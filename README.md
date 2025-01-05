@@ -78,6 +78,7 @@ This is a **proprietary project**, and all rights to the app, its code, and its 
 Name: Michael Lloyd Luanglath
 
 Email: Mike.EXPR@gmail.com
+
 ---
 
 ## License
