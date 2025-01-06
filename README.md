@@ -69,6 +69,8 @@ Partnering with OpenAI to leverage GPT's advanced conversational AI will allow t
 ### Amazon/Kindle  
 By integrating with Amazon's e-book ecosystem, the app can provide real-time tools and insights directly within Kindle books, offering unparalleled convenience and accessibility for readers.
 
+*Potential partnerships with major publishers and content providers*
+
 ---
 
 ## Disclaimer
