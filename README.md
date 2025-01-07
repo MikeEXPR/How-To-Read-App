@@ -16,6 +16,8 @@ With cutting-edge AI technology, this app will:
 
 This app is more than a reading tool—it's a platform for lifelong learning and intellectual growth.
 
+"We must be more than a nation of functional literates. We must become a nation of truly competent readers, recognizing all that the word competent implies. Nothing less will satisfy the needs of the world that is coming." -Adler
+
 ---
 
 ## Features
