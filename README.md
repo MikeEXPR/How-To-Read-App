@@ -2,6 +2,8 @@
 
 ## Description
 
+"Read What You Love Until You Love to Read" -Naval Ravikant
+
 The **How to Read a Book App** is a transformative tool designed to revolutionize how people approach reading and comprehension, inspired by Mortimer Adler's seminal work, *How to Read a Book*. This app aims to serve as an intelligent guide, mentor, and interactive assistant, helping users master the art of reading critically and effectively while fostering deep engagement with texts.
 
 With cutting-edge AI technology, this app will:
@@ -23,6 +25,7 @@ This app is more than a reading tool—it's a platform for lifelong learning and
    - Clarifications on complex passages
    - Real-time discussions about themes, characters, and ideas
    - Contextual explanations for historical, cultural, or philosophical references
+   - Camera and Image OCR (Optical Character Recognition) technology integration
 
 2. **Seamless Integration with E-Book Platforms**  
    Potential partnerships with Amazon and Kindle will allow users to:
