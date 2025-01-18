@@ -14,7 +14,6 @@ import speech_recognition as sr
 import edge_tts
 import os
 
-# ✅ Properly Initialize OpenAI Client
 openai_client = OpenAI(api_key="API")  # OpenAI API Key for GPT-4 & Whisper
 set_api_key("API")  # ElevenLabs API Key for Text-to-Speech
 
@@ -127,7 +126,7 @@ class ChatWithMentorScreen(Screen):
                 with open("temp_audio.wav", "wb") as f:
                     f.write(audio.get_wav_data())
 
-                # ✅ Use Whisper API to transcribe audio
+                # Use Whisper API to transcribe audio
                 with open("temp_audio.wav", "rb") as audio_file:
                     transcription = openai_client.audio.transcriptions.create(
                         model="whisper-1",
@@ -138,7 +137,7 @@ class ChatWithMentorScreen(Screen):
                 self.chat_log.text += f"\n\nYou (Voice): {query}"
                 self.get_gpt_response(query)
 
-                # ✅ Clean up the temporary audio file
+                # Clean up the temporary audio file
                 os.remove("temp_audio.wav")
 
             except Exception as e:
@@ -153,7 +152,7 @@ class ChatWithMentorScreen(Screen):
             reply = response.choices[0].message.content
             self.chat_log.text += f"\n\nMentor: {reply}"
 
-            # ✅ Speak the response using ElevenLabs
+            # Speak the response using ElevenLabs
             threading.Thread(target=self.speak_with_elevenlabs, args=(reply,)).start()
 
         except Exception as e:
@@ -161,7 +160,7 @@ class ChatWithMentorScreen(Screen):
 
     def speak_with_elevenlabs(self, text):
         try:
-            # ✅ Generate speech using ElevenLabs
+            # Generate speech using ElevenLabs
             audio = generate(
                 text=text,
                 voice="Jessica",  # Choose the desired voice from ElevenLabs
