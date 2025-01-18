@@ -1,5 +1,7 @@
 # How to Read a Book App (Proprietary Project)
 
+-This is an early prototype and the current development is happening in Flutter/Dart-
+
 ## Description
 
 "Read What You Love Until You Love to Read" -Naval Ravikant
